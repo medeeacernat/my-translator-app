@@ -1,0 +1,111 @@
+/* Resetare stiluri */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Fontul principal */
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Containerul principal */
+  .container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 600px; /* Lățimea mai mare */
+    text-align: center;
+    max-width: 100%;
+    margin: 20px; /* Adăugăm margini */
+  }
+  
+  /* Header */
+  header h1 {
+    font-size: 2.2rem; /* Mărire titlu */
+    color: #333333;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  header p {
+    font-size: 1rem;
+    color: #555555;
+    margin-bottom: 30px;
+  }
+  
+  /* Formular */
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  label {
+    font-size: 1rem; /* Mărire text pentru etichete */
+    color: #333333;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 15px; /* Mai mult spațiu pentru input */
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #333333;
+    margin-bottom: 15px; /* Adăugăm margini mai mari între inputuri */
+  }
+  
+  /* Butonul de traducere */
+  .btn {
+    background-color: #007bff;
+    color: #ffffff;
+    font-size: 1.2rem; /* Mărire font buton */
+    font-weight: 600;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%; /* Butonul să ocupe toată lățimea */
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Secțiunea de rezultate */
+  #result-section {
+    margin-top: 30px;
+  }
+  
+  #result-section h2 {
+    font-size: 1.3rem;
+    color: #333333;
+    margin-bottom: 20px;
+  }
+  
+  /* Modificări pentru a permite scroll în secțiunea de rezultate */
+  #result {
+    font-size: 1rem;
+    color: #555555;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border: 1px dashed #cccccc;
+    border-radius: 8px;
+    text-align: left;
+    white-space: pre-wrap;
+    max-height: 300px; /* Înălțime maximă fixă */
+    overflow-y: auto; /* Permite derularea verticală */
+    margin-bottom: 20px;
+  }
+  

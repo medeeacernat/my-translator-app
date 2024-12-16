@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Traducere Documente</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Traducere Documente</h1>
+      <p>Transformă fișierele tale în limba dorită, rapid și ușor!</p>
+    </header>
+    <form id="upload-form">
+      <div class="form-group">
+        <label for="file">Încarcă fișierul (.txt, .pdf, .docx):</label>
+        <input type="file" id="file" accept=".txt, .pdf, .docx" />
+      </div>
+      <div class="form-group">
+        <label for="language">Selectează limba:</label>
+        <select id="language">
+          <option value="" disabled selected>Încărcare limbi...</option>
+        </select>
+      </div>
+      <button type="submit" class="btn">Tradu</button>
+    </form>
+    <section id="result-section">
+      <h2>Rezultatul Traducerii:</h2>
+      <div id="result">Aici va apărea traducerea...</div>
+    </section>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
